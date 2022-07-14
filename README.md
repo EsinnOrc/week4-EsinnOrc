@@ -1,23 +1,11 @@
 # Week4Assignment
 
 ## ARAŞTIRMA (20 puan)
-- Test Driven Development ve Behaviour Driven Development arasındaki farkı açıklayınız.
-- Unit Test nedir? Unit Test nasıl yapılır?
+- ## Test Driven Development ve Behaviour Driven Development arasındaki fark
+-	Davranış Odaklı Geliştirme, daha çok bir yazılım uygulamasının davranışıyla ilgilenir. Teste Dayalı Geliştirme, daha çok bir yazılım uygulamasının bir özelliğinin uygulanmasına ilgilenir
+-	BDD'de katılımcılar Geliştiriciler, Müşteri, QA'lardır.	TDD'de katılımcılar geliştiricilerdir.
+- Davranış Odaklı Geliştirme, Odak noktası sistem gereksinimleridir. Teste Dayalı Geliştirme, Odak noktası birim testidir.
+- kullanılan dil basit İngilizcedir denilebilr.Teste Dayalı Geliştirmede kullanılan dil, programlama diline benzer.
 
-## SYMFONY KONSOL UYGULAMASI OLUŞTURMA (20 puan)
-1 ile N arası rastgele pozitif  tamsayıların olduğu bir array içinden en küçük ve en büyük sayıyı bulup, bu sayıları ekrana bastıran bir konsol uygulaması yazınız. Buradaki N değeri konsol uygulamasından parametrik olarak alınacaktır. Dizideki rastgele tamsayılar PHP’nin random fonksiyonuyla oluşturulabilir.
-
-Örnek: 
-Konsol Uygulaması için Input: 7
-//Random array değerleri: Array = {1,6,743,24,132,54,9}
-
-Çıktı: 
-En Büyük Sayı: 743
-En Küçük Sayı: 1
-
-## SYMFONY WEB UYGULAMASI OLUŞTURMA (60 puan)
-Ders esnasında composer ile oluşturmuş olduğumuz ve twig template içeren Symfony uygulamasını Repo’ya yükleyiniz. Twig template aşağıdaki özellikleri barındırmalıdır:
-- En az 2 parametreyi controllerdan almalı (parametrelerden bir tanesi mutlaka array olmalı)
-- Ena z 1 asset içermeli (css / js) ve template içinde bu asset kullanılmalı
-- Template içinde controllerden alınan çıktı mutlaka döngüde bastırılmalı
-
+- ## Unit Test nedir? Unit Test nasıl yapılır?
+     Birim testi , bir uygulamanın işlevler, sınıflar, prosedürler, arayüzler gibi test edilebilir. Birim testi, kullanıma uygun olup olmadıklarını belirlemek için kaynak   kodun ayrı birimlerinin test edildiği bir yöntemdir.Birim testinin yürütülmesi için Beyaz Kutu Testi yöntemi kullanılır. Ünitenin test etmesi için verilerin  hazırlandığı yeri düzenlenmeldir.Birimin çağrıldığı ve yanıtın günlüğe kaydedildiği eylem gerçekleştirilir. Assert, testin büyük kısmının gerçekleştiği yerdir.
